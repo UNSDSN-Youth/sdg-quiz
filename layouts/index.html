@@ -2,17 +2,16 @@
 
 <html>
 	<head>
-		<title>SDGs Psychological Quiz</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		{{ partial "head.html" . }}
 	</head>
 <body>
 
 <header id="header">
-	<div >
-	<h1><strong>Play this</strong> simple quiz and identify you <br> SDG Goal and SDG pet.
-		Powered by <a href="http://sdsnyouth.org">SDSNYouth.Org</a>.</h1>
-		</div>
+    <div class="inner">
+        {{ partial "header.html" . }}
+
+    </div>
+    {{ partial "footer.html" . }}
 </header>
 
 <div id="main">
@@ -536,28 +535,9 @@
 		<div id="global_en"><img id="res_head_img" src="./images/becomeaglobalcitizen.PNG"></div> 
 		</div>
 
-				
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; SdgZone</li><li>Design: <a href="http://sdgzone.com">SDG ZONE</a></li>
-					</ul>
-				</div>
-			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		{{ partial "scripts.html" . }}
 		
 	</body>
 	
