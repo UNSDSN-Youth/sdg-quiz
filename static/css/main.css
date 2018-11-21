@@ -144,7 +144,7 @@ input, select, textarea {
 		color: #787878;
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 .5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -153,43 +153,43 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 1.7em;
+		line-height: 1em;
 	}
 
 	h2 {
-		font-size: 1.5em;
-		line-height: 1.5em;
+		font-size: 1.3em;
+		line-height: 1em;
 	}
 
 	h3 {
-		font-size: 1.25em;
-		line-height: 1.5em;
+		font-size: 1em;
+		line-height: 1em;
 	}
 
 	h4 {
-		font-size: 1.1em;
-		line-height: 1.5em;
+		font-size: 0.9em;
+		line-height: 1em;
 	}
 
 	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		font-size: 0.6em;
+		line-height: 1em;
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 0.4em;
+		line-height: 1em;
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.3em;
 		position: relative;
 		top: 0.5em;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 0.2em;
 		position: relative;
 		top: -0.5em;
 	}
@@ -2596,6 +2596,13 @@ input, select, textarea {
 		}
 
 /* Header */
+	img.logo-header {
+		z-index: 100;
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		height: 80px;
+	}
 
 	#header {
 		display: -moz-flex;
@@ -2622,12 +2629,25 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding-top: 20%;
+		padding-bottom: 8em;
+		padding-left: 4em;
+		padding-right: 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
 		width: 35%;
 	}
+
+	/* Specifically for the results page. Relies on #header styling */
+		#header.results {
+			text-align: center;
+			padding-top: 15%;
+		}
+
+		#header.results > .inner > img.results-logo {
+			height: 300px;
+		}
 
 		#header > * {
 			-moz-flex-shrink: 0;
@@ -2706,9 +2726,29 @@ input, select, textarea {
 	#main {
 		margin-left: 38%;
 		max-width: 54em;
-		padding: 8em 4em;
+		padding-top: 5em;
+		padding-left: 4em;
+		padding-right: 4em;
 		width: calc(100% - 35%);
 	}
+		#main > .inner.results {
+			padding-top: 15%;
+			padding-left: 2em;
+		}
+
+		#main > .inner.results > h1 {
+			font-size: 1.3em;
+			margin: 0 0 .5em 0;
+		}
+
+		#main > .inner.results > h2 {
+			font-size: 2em;
+			margin: 0 0 .5em 0;
+		}
+
+		#main > .inner.results > p {
+			margin: 0 0 .7em 0;
+		}
 
 		#main > section {
 			margin: 2em 0 0 0;
