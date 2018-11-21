@@ -2432,9 +2432,11 @@ input, select, textarea {
 
 /* Button */
 
+	/* the button.choice tag relies on the button class below*/
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	button,
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2447,7 +2449,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #787878;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2550,6 +2552,26 @@ input, select, textarea {
 			border-color: #e7e7e7 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
+		}
+	
+		/* This tag relies on the base styling from the button above */
+		button.choice{
+			display: inline-block;
+			background-color: #EAEAEA !important;
+			border: solid 3px #EAEAEA !important;
+			font-size: 22px !important;
+			color: #000000 !important;
+			height: 7em !important;
+			min-width: calc(100% / 2.2 ) !important;
+			margin: 20px 20px 0 0;
+		}
+
+		@media screen and (max-width: 560px) {
+			button.choice{
+				min-width: 100% !important;
+				margin: 20px 20px 0 0;
+				height: 5em !important;
+			}
 		}
 
 /* Work Item */
@@ -2684,18 +2706,16 @@ input, select, textarea {
 	#main {
 		margin-left: 38%;
 		max-width: 54em;
-		padding: 2em 2em 1em 1em;
+		padding: 8em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
 			margin: 2em 0 0 0;
 			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
-				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
 			}
