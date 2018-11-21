@@ -2574,6 +2574,18 @@ input, select, textarea {
 			}
 		}
 
+		/* Green button */
+		shortcode-button > .button {
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			border: none !important;
+			border-radius: 10px;
+			font-size: 22px !important;
+			color: #525252 !important;
+			min-width: 100% !important;
+		}
+
 /* Work Item */
 
 	.work-item {
