@@ -2574,6 +2574,18 @@ input, select, textarea {
 			}
 		}
 
+		/* Green button */
+		shortcode-button > .button {
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			border: none !important;
+			border-radius: 10px;
+			font-size: 22px !important;
+			color: #525252 !important;
+			min-width: 100% !important;
+		}
+
 /* Work Item */
 
 	.work-item {
@@ -2636,7 +2648,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 40%;
 	}
 
 	/* Specifically for the results page. Relies on #header styling */
@@ -2724,12 +2736,12 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 38%;
+		margin-left: 42%;
 		max-width: 54em;
 		padding-top: 5em;
 		padding-left: 4em;
 		padding-right: 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 57%);
 	}
 		#main > .inner.results {
 			padding-top: 15%;

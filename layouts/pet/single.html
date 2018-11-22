@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+    <!-- Header -->
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                {{ partial "footer.html" . }}
+            </div>
+          </footer>
+            
+          <!-- Main -->
+            <div id="main">
+              <img src="{{ .Site.BaseURL }}/images/sdsny-logo.png" class="logo-header"/>
+              <div class="inner results">
+                <h1>{{ $.Title }}</h1>
+                  {{.Content}}
+              </div>
+            </div>
+
+  <!-- Scripts -->
+  {{ partial "scripts.html" . }}
+
+</body>
+</html>
