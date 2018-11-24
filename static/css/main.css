@@ -117,13 +117,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #4b4b4b;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #4b4b4b !important;
 			text-decoration: none;
 		}
 
@@ -1863,7 +1863,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #4b4b4b;
 		}
 
 	select {
@@ -1963,7 +1963,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #4b4b4b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2050,7 +2050,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2467,8 +2467,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #4b4b4b;
+			color: #4b4b4b !important;
 		}
 
 		input[type="submit"]:active,
@@ -2476,8 +2476,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #4b4b4b;
+			color: #4b4b4b !important;
 		}
 
 		input[type="submit"].icon,
@@ -2520,8 +2520,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #4b4b4b;
+			border-color: #4b4b4b;
 			color: #ffffff !important;
 		}
 
@@ -2633,15 +2633,15 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #eff1e5;
 		background-attachment: scroll,								scroll;
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: auto,								100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding-top: 20%;
+		padding-top: 17%;
 		padding-bottom: 8em;
 		padding-left: 4em;
 		padding-right: 4em;
@@ -2649,6 +2649,37 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 40%;
+	}
+
+	/* Specifically for home page */
+	#header.home,
+	#header.home strong,
+	#header.home footer li,
+	#header.home footer li a  {
+		color: #2e2e2e !important;
+	}
+
+	#header.home p {
+		color: #5d5d5d !important;
+	}
+
+	@media screen and (max-height: 714px) {
+		#header.home p,
+		#header.home footer li,
+		#header.home footer li a {
+			font-size: .8em;
+			line-height: 1.5;
+		}
+
+		#header.home footer ul {
+			margin-bottom: 0;
+			font-size: .7em;
+		}
+	}
+
+	#header.home {
+		background-position: bottom !important;
+		background-size: contain;
 	}
 
 	/* Specifically for the results page. Relies on #header styling */
@@ -2699,16 +2730,24 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer#home .copyright ul {
+		list-style: none !important;
+	}
+
+	#footer#home .copyright > a {
+		color: #2e2e2e !important;
+	}
+
 	#footer .icons {
 		margin: 1em 0 0 0;
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3114,7 +3153,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
-				background-position: top left, center center;
+				background-position: bottom, center center;
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
@@ -3137,10 +3176,10 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #eff1e5;
 				background-image: url("images/overlay.png");
 				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
+				background-repeat: no-repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
