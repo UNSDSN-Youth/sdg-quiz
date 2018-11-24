@@ -6,17 +6,25 @@
 	<body id="top">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					{{ partial "header.html" . }}
+    <header id="header" class="home" style="background-image: url('{{ .Site.BaseURL }}/images/left-bg.png')">
+      <div class="inner">
+        	<h1><strong>Which Sustainable Development Goal are you? </strong></h1>
+          <p>The Sustainable Development Goals (SDGs) are a set of 17 objectives - the blueprint to achieve a better and more sustainable future for all. 
+              <br>Find out which one you are! </p>
+          <footer id="footer a">
+              <ul class="icons">
+                  <li><a href="https://twitter.com/sdsnyouth" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                  <li><a href="https://facebook.com/sdsnyouth" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                  <li><a href="https://github.com/UNSDSN-Youth/" class="icon fa-github"><span class="label">Facebook</span></a></li>
+                  <li><a href="mailto:youth@unsdsn.org" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                  <li><a href="https://sdsnyouth.org" class="icon fa-link"><span class="label">Website</span></a></li>
+                </ul>
+                <ul class="copyright">
+                  &copy; SDG QUIZ Powered by <a href="http://sdsnyouth.org">sdsnyouth.org</a>.
+              </ul>
+          </footer>
         </div>
-        <!-- Footer -->
-        <footer id="footer">
-          <div class="inner">
-              {{ partial "footer.html" . }}
-          </div>
-        </footer>
-			</header>
+    </header>
             
           <!-- Main -->
             <div id="main">
