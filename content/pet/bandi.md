@@ -17,3 +17,7 @@ However, the development of these industries, technologies and cities has caused
 
 So BanDi and friends of animals and plants can live with us. Let us consider the path of sustainable prosperity so that our society can shine for all.
 
+
+{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+
+{{< button link="#" text="Share results" colour="#B1C46B" >}}

@@ -20,3 +20,7 @@ In this hurdling, Ping and friends lean on each other's body temperature to over
 Ping shows that these organic partnerships, or partnerships, are crucial not only for Emperor penguins, but also for our society to cope with various adversities.
 
 
+
+{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+
+{{< button link="#" text="Share results" colour="#B1C46B" >}}
