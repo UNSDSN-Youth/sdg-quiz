@@ -17,3 +17,7 @@ Such as fried potato, potato chips, potato salad, and many more.
 
 That's why potato have been a part of human history right next to humans.
 
+
+{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+
+{{< button link="#" text="Share results" colour="#B1C46B" >}}

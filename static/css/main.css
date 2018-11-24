@@ -2584,6 +2584,7 @@ input, select, textarea {
 			font-size: 22px !important;
 			color: #525252 !important;
 			min-width: 100% !important;
+			margin-bottom: .5em;
 		}
 
 /* Work Item */

@@ -16,3 +16,7 @@ However, the friends of this important Ve are threatened with extinction because
 So you have to work with Ve to solve the environmental problems around the world, from the murderous heat waves of the continent of Europe, the plastic trash islands of the Pacific to Asia's air pollution.
 
 
+
+{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+
+{{< button link="#" text="Share results" colour="#B1C46B" >}}

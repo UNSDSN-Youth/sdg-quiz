@@ -21,3 +21,7 @@ Because of this, GohGoh and his friends are nicknamed the pacifists of the sea.
 
 Let's also think about what we can do for peace in everyday life like GohGoh.
 
+
+{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+
+{{< button link="#" text="Share results" colour="#B1C46B" >}}
