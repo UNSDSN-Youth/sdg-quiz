@@ -17,6 +17,6 @@ So you have to work with Ve to solve the environmental problems around the world
 
 
 
-{{< button link="#" text="Retake quiz" colour="#EAEAEA" >}}
+{{< button link="/become/global-citizen" text="Become a Global Citizen" colour="#EAEAEA" >}}
 
 {{< button link="#" text="Share results" colour="#B1C46B" >}}

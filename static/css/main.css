@@ -2566,6 +2566,10 @@ input, select, textarea {
 			margin: 20px 20px 0 0;
 		}
 
+		button.choice.long{ 
+			min-width: 100%;
+		}
+
 		@media screen and (max-width: 560px) {
 			button.choice{
 				min-width: 100% !important;
@@ -2585,6 +2589,10 @@ input, select, textarea {
 			color: #525252 !important;
 			min-width: 100% !important;
 			margin-bottom: .5em;
+		}
+
+		#main > .inner.results > .button-back {
+			margin-bottom: 25px;
 		}
 
 /* Work Item */
@@ -2727,6 +2735,10 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+		}
+
+		header-image img {
+			width: 100%;
 		}
 
 /* Footer */
