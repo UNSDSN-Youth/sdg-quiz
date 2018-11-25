@@ -1,7 +1,9 @@
-<header id="header" class="results" style="background-color:{{ .Get "hex" }}">
-    <div class="inner">
-        <img src="{{ .Site.BaseURL }}/images/sdgs/{{ .Get "sdg" }}.png" class="results-logo" />
+<header id="header" class="results" style="background-image: url('{{ .Site.BaseURL }}/images/sdgs/{{ .Get "src" }}')">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/main.css" />
-    </div>
+    <footer id="footer">
+        <div class="inner">
+            {{ partial "footer.html" . }}
+        </div>
+    </footer>
 </header>
-
+<!-- Footer -->
