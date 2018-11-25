@@ -3189,7 +3189,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #eff1e5;
+				background-color: rgb(239, 243, 216);
 				background-image: url("images/overlay.png");
 				background-position: top left,						bottom center;
 				background-repeat: no-repeat;
