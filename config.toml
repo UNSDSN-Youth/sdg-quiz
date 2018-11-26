@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https:quiz.sdgzone.com"
+baseurl = "https://quiz.sdgzone.com"
 languageCode = "en-us"
 title = "SDG QUIZ"
 
