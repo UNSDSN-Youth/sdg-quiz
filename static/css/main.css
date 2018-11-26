@@ -2808,6 +2808,16 @@ input, select, textarea {
 			padding-left: 2em;
 		}
 
+		@media screen and (max-height: 780px){
+			#main > .inner.results {
+				padding-top: 8%; 
+			}
+
+			#header.results {
+				padding-top: 30%;
+			}
+		}
+
 		#main > .inner.results > h1 {
 			font-size: 1.3em;
 			margin: 0 0 .5em 0;
