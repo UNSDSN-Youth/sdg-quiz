@@ -1276,6 +1276,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			#header {
+				padding: 1.5em 1.5em;
+			}
+
+			#header.home p,
+			img.logo-header,
+			#footer#home ul.icons > * {
+				display: none;
+			}
+
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2563,14 +2574,14 @@ input, select, textarea {
 			color: #000000 !important;
 			height: 7em !important;
 			min-width: calc(100% / 2.2 ) !important;
-			margin: 20px 20px 0 0;
+			margin: 0 20px 20px 0;
 		}
 
 		button.choice.long{ 
 			min-width: 100%;
 		}
 
-		@media screen and (max-width: 560px) {
+		@media screen and (max-width: 1480px) {
 			button.choice{
 				min-width: 100% !important;
 				margin: 20px 20px 0 0;
@@ -2589,6 +2600,16 @@ input, select, textarea {
 			color: #525252 !important;
 			min-width: 100% !important;
 			margin-bottom: .5em;
+		}
+
+		@media screen and (max-height: 780px){
+			shortcode-button {
+				display: inline-block;
+			}
+
+			shortcode-button > .button {
+				width: 50%;
+			}
 		}
 
 		#main > .inner.results > .button-back {
@@ -2670,6 +2691,13 @@ input, select, textarea {
 
 	#header.home p {
 		color: #5d5d5d !important;
+	}
+
+
+	@media screen and (max-height: 769px) {
+		#header {
+			padding-top: 10%;
+		}
 	}
 
 	@media screen and (max-height: 714px) {
@@ -2808,6 +2836,16 @@ input, select, textarea {
 			padding-left: 2em;
 		}
 
+		@media screen and (max-height: 780px){
+			#main > .inner.results {
+				padding-top: 8%; 
+			}
+
+			#header.results {
+				padding-top: 30%;
+			}
+		}
+
 		#main > .inner.results > h1 {
 			font-size: 1.3em;
 			margin: 0 0 .5em 0;
@@ -2823,8 +2861,8 @@ input, select, textarea {
 		}
 
 		#main > section {
-			margin: 2em 0 0 0;
-			padding: 2em 0 0 0;
+			margin: 1em 0 0 0;
+			padding: 1em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -3177,7 +3215,7 @@ input, select, textarea {
 				background-position: bottom, center center;
 				background-size: auto,		cover;
 				left: auto;
-				padding: 6em 4em;
+				padding: 3em 4em;
 				position: relative;
 				text-align: center;
 				top: auto;
@@ -3193,15 +3231,12 @@ input, select, textarea {
 						display: inline;
 					}
 
+			img.logo-header {
+				height: 48px;
+			}
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
-				background-color: rgb(239, 243, 216);
-				background-image: url("images/overlay.png");
-				background-position: top left,						bottom center;
-				background-repeat: no-repeat;
-				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
@@ -3230,7 +3265,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 0 4em;
 				width: 100%;
 			}
 
@@ -3297,8 +3332,8 @@ input, select, textarea {
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					margin: 0 0 0 0;
+					padding: 0 0 0 0;
 				}
 
 		/* Poptrox */
@@ -3321,7 +3356,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4.5em 1.5em;
+				padding: 3em 4em;
 			}
 
 				#header h1 br {
@@ -3337,5 +3372,34 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+		button.choice {
+			height: 4em !important;
+		}
+
+	}
+
+	@media screen and (max-width: 420px) {
+		/* Header */
+
+		#header {
+			padding: 1em 1em !important;
+		}
+
+		#main {
+			padding: 0.25em 1.5em 0.25em 1.5em;
+		}
+
+	}
+
+	@media screen and (max-width: 415px) {
+
+		h6 {
+			font-size: 0.3em;
+		}
+
+		h4 {
+			font-size: 0.5em;
+		}
 
 	}
