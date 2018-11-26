@@ -2578,12 +2578,12 @@ input, select, textarea {
 		}
 
 		button.choice.long{ 
-			min-width: 100%;
+			width: 100%;
 		}
 
 		@media screen and (max-width: 1480px) {
 			button.choice{
-				min-width: 100% !important;
+				width: 100% !important;
 				margin: 20px 20px 0 0;
 				height: 5em !important;
 			}
@@ -2598,7 +2598,7 @@ input, select, textarea {
 			border-radius: 10px;
 			font-size: 22px !important;
 			color: #525252 !important;
-			min-width: 100% !important;
+			width: 100% !important;
 			margin-bottom: .5em;
 		}
 
@@ -2609,6 +2609,38 @@ input, select, textarea {
 
 			shortcode-button > .button {
 				width: 50%;
+			}
+
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 19px !important;
+			}
+		}
+
+		@media screen and (max-height: 750px){
+			#main h4 {
+				font-size: .6em;
+			}
+
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 19px !important;
+			}
+		}
+
+		@media screen and (max-width: 400px){
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 15px !important;
+			}
+		}
+
+		@media screen and (max-width: 330px){
+			button.choice.long {
+				font-size: 12px !important;
 			}
 		}
 
