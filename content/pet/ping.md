@@ -23,4 +23,4 @@ Ping shows that these organic partnerships, or partnerships, are crucial not onl
 
 {{< button link="/become/global-citizen" text="Become a Global Citizen" colour="#EAEAEA" >}}
 
-{{< button link="#" text="Share results" colour="#B1C46B" >}}
+{{< social-media src="quiz.sdgzone.com/pet/ping/" >}}

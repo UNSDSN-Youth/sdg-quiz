@@ -20,4 +20,4 @@ This is so that Bandi, and friends of animals and plants can live with us. Let u
 
 {{< button link="/become/global-citizen" text="Become a Global Citizen" colour="#EAEAEA" >}}
 
-{{< button link="#" text="Share results" colour="#B1C46B" >}}
+{{< social-media src="quiz.sdgzone.com/pet/bandi/" >}}

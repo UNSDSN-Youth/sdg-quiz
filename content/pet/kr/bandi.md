@@ -25,4 +25,4 @@ draft: false
 
 {{< button link="/become/global-citizen" text="세계시민 되어보기" colour="#EAEAEA" >}}
 
-{{< button link="#" text="Share results" colour="#B1C46B" >}}
+{{< social-media src="quiz.sdgzone.com/pet/bandi/" >}}

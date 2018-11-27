@@ -24,4 +24,4 @@ Let's also think about what we can do for peace in everyday life, just like our 
 
 {{< button link="/become/global-citizen" text="Become a Global Citizen" colour="#EAEAEA" >}}
 
-{{< button link="#" text="Share results" colour="#B1C46B" >}}
+{{< social-media src="quiz.sdgzone.com/pet/gohgoh/" >}}

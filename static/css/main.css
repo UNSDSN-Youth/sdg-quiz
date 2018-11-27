@@ -2589,6 +2589,11 @@ input, select, textarea {
 			}
 		}
 
+		social-media .share-button {
+			padding-bottom: 10px;
+		}
+
+
 		/* Green button */
 		shortcode-button > .button {
 			height: 60px;
