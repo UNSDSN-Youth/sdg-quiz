@@ -2578,12 +2578,12 @@ input, select, textarea {
 		}
 
 		button.choice.long{ 
-			min-width: 100%;
+			width: 100%;
 		}
 
 		@media screen and (max-width: 1480px) {
 			button.choice{
-				min-width: 100% !important;
+				width: 100% !important;
 				margin: 20px 20px 0 0;
 				height: 5em !important;
 			}
@@ -2598,17 +2598,49 @@ input, select, textarea {
 			border-radius: 10px;
 			font-size: 22px !important;
 			color: #525252 !important;
-			min-width: 100% !important;
+			width: 100% !important;
 			margin-bottom: .5em;
 		}
 
 		@media screen and (max-height: 780px){
-			shortcode-button {
+			#main section shortcode-button {
 				display: inline-block;
 			}
 
 			shortcode-button > .button {
 				width: 50%;
+			}
+
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 19px !important;
+			}
+		}
+
+		@media screen and (max-height: 750px){
+			#main h4 {
+				font-size: .6em;
+			}
+
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 19px !important;
+			}
+		}
+
+		@media screen and (max-width: 400px){
+			button.choice.long {
+				height: 50px;
+				line-height: 50px;
+				font-size: 15px !important;
+			}
+		}
+
+		@media screen and (max-width: 330px){
+			button.choice.long {
+				font-size: 12px !important;
 			}
 		}
 
@@ -2681,6 +2713,10 @@ input, select, textarea {
 		width: 40%;
 	}
 
+	.square-sdg {
+		display: none;
+	}
+
 	/* Specifically for home page */
 	#header.home,
 	#header.home strong,
@@ -2698,6 +2734,14 @@ input, select, textarea {
 		#header {
 			padding-top: 10%;
 		}
+	}
+
+	@media screen and (max-height: 760px) {
+		#header.results {
+			padding-top: 0%;
+		}
+
+		
 	}
 
 	@media screen and (max-height: 714px) {
@@ -2834,6 +2878,12 @@ input, select, textarea {
 		#main > .inner.results {
 			padding-top: 15%;
 			padding-left: 2em;
+		}
+
+		@media screen and (max-height: 780px) and (max-width: 1400px){
+			#header.results {
+				padding-top: 40% !important;
+			}
 		}
 
 		@media screen and (max-height: 780px){
@@ -3194,7 +3244,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1000px) {
 
 		/* Basic */
 
@@ -3209,11 +3259,31 @@ input, select, textarea {
 			}
 
 		/* Header */
+			#header.results {
+				display: none !important;
+			}
+
+			#header.pet {
+				background-color: rgba(255, 255, 255, 0) !important;
+				padding: 2px !important;
+			}
+
+			#header.pet > .inner > img.results-logo {
+				height: 200px !important;
+			}
+
+			.square-sdg {
+				display: inline;
+			}
+
+			.square-sdg img {
+				height: 150px;
+			}
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: inherit;
 				background-position: bottom, center center;
-				background-size: auto,		cover;
+				background-size: 100%,		cover;
 				left: auto;
 				padding: 3em 4em;
 				position: relative;
@@ -3237,29 +3307,8 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				bottom: auto;
-				left: auto;
-				padding: 4em 4em 6em 4em;
-				position: relative;
-				text-align: center;
-				width: 100%;
+				display: none;
 			}
-
-				#footer .icons {
-					margin: 0 0 1em 0;
-				}
-
-				#footer .copyright {
-					margin: 0 0 1em 0;
-				}
-
-					#footer .copyright li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
-					}
 
 		/* Main */
 

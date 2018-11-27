@@ -9,7 +9,7 @@ draft: false
 You just got a pet!
 ---
 
-Ve is a diligent worker bee. It is said that we are able to see colorful flowers thanks to Ve that worked so hard. 
+Ve is a diligent worker bee. It is said that we are able to see colorful flowers thanks to Ve who has worked so hard. 
 
 However, the friends of this important Ve are threatened with extinction because of environmental pollution.
 

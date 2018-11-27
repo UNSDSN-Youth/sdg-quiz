@@ -11,11 +11,11 @@ You just got a pet!
 
 Ping is a cute and lovely baby emperor penguin. 
 
-The Antarctica where Ping lives is very cold in winter. 
+Antarctica where Ping lives, is very cold in winter. 
 
-At this time, the emperor penguins gathered together to form a huge circle called ‘Hurdling'. 
+At this time, the emperor penguins gathered together to form a huge circle called 'Huddling'. 
 
-In this hurdling, Ping and friends lean on each other's body temperature to overcome the cold. 
+While they huddle, Ping and friends lean on each other's body temperature to overcome the cold. 
 
 Ping shows that these organic partnerships, or partnerships, are crucial not only for Emperor penguins, but also for our society to cope with various adversities.
 
