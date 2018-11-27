@@ -11,11 +11,11 @@ You just got a pet!
 
 GamJa is a burnt potato, the precious food of humanity. 
 
-At the time of the famine and today, the potato meet with a variety of ingredients and become our foods. 
+At the time of famine, the potato becomes a staple of our food when combined with various ingredients.
 
 Such as fried potato, potato chips, potato salad, and many more.
 
-That's why potato have been a part of human history right next to humans.
+Potatos have been around with humanity from the very beginning!
 
 
 {{< button link="/become/global-citizen" text="Become a Global Citizen" colour="#EAEAEA" >}}
