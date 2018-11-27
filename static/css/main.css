@@ -2589,10 +2589,10 @@ input, select, textarea {
 			}
 		}
 
-		social-media .share-button {
+		social-media .scl-media {
 			padding-bottom: 10px;
+			display: inline;
 		}
-
 
 		/* Green button */
 		shortcode-button > .button {

@@ -24,17 +24,14 @@
     }(document, 'script', 'kakao-js-sdk'));
   </script>
 
-    <div class="share-button">
-        <div id="kakaostory-share-button" data-url="{{ .Get "src"}}"></div>
-    </div>
-    <div class="share-button">
-        <div class="fb-share-button" 
+
+        <div id="kakaostory-share-button scl-media" data-url="{{ .Get "src"}}"></div>
+
+        <div class="fb-share-button scl-media" 
         data-href="{{ .Get "src"}}" 
         data-layout="button">
         </div>
-    </div>
-    <div class="share-button">
-        <a href="https://twitter.com/intent/tweet?button_hashtag=movehumanity&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #movehumanity</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=movehumanity&ref_src=twsrc%5Etfw" class="twitter-hashtag-button scl-media" data-show-count="false">Tweet #movehumanity</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 </social-media>
