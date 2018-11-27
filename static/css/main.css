@@ -2590,13 +2590,45 @@ input, select, textarea {
 		}
 
 		social-media {
-			display: inline-block;
+			display: block;
 		}
 
 		social-media .scl-media {
 			padding-bottom: 10px;
-			vertical-align: bottom;
-			display: inline;
+			display: block;
+			float: left;
+			margin-right: 10px;
+		}
+
+		social-media #kakaostory-share-button img {
+			height: 28px;
+			width: 28px;
+		}
+
+		social-media #kakaostory-share-button::before {
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+		}
+
+		social-media .btn-o {
+			vertical-align: middle;
+		}
+
+		social-media .twitter-hashtag-button {
+			margin-left: 40px;
+			margin-top: 4px;
+		}
+
+		social-media #kakaostory-share-button a {
+			margin-top: 1px;
+			border-bottom: none;
+		}
+
+		social-media .fb-share-button {
+			height: 38px;
+			width: 30px;
 		}
 
 		/* Green button */
