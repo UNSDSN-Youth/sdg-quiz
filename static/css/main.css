@@ -2589,8 +2589,13 @@ input, select, textarea {
 			}
 		}
 
+		social-media {
+			display: inline-block;
+		}
+
 		social-media .scl-media {
 			padding-bottom: 10px;
+			vertical-align: bottom;
 			display: inline;
 		}
 
