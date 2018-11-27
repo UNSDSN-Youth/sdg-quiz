@@ -1281,9 +1281,12 @@ input, select, textarea {
 			}
 
 			#header.home p,
-			img.logo-header,
-			#footer#home ul.icons > * {
+			img.logo-header {
 				display: none;
+			}
+
+			header#header h1 {
+				margin-bottom: .5em !important;
 			}
 
 
